@@ -1,0 +1,9 @@
+name: vapor
+author: Patrick McCarthy
+version: 0.0.1
+homepage: re-creationstudios.com
+description: A 3D game engine utilizing WebGL
+dependencies:
+  box2d: any
+  browser: any
+  vector_math: any
