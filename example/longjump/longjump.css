@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+}
+
+canvas {
+  margin: 0px;
+  display: block; /* Prevents the canvas from having 5 pixels of space below it. */
+}
+
+#distance {
+    position: absolute;
+    font-size: 2.5em;
+    left: 47%;
+    top: 10px;
+    color: white;
+}
+
+#max {
+    position: absolute;
+    font-size: 2.5em;
+    left: 47%;
+    top: 55px;
+    color: red;
+}
+
+#reset {
+    position: absolute;
+}
+
+#fullscreen {
+    position: absolute;
+    right: 0px;
+}

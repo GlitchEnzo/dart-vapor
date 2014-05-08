@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+
+canvas {
+  margin: 0px;
+  display: block; /* Prevents the canvas from having 5 pixels of space below it. */
+}
+
+#hits, #gameover, #win {
+    position: absolute;
+    font-size: 60px;
+}
+
+#hits {
+    left: 50%;
+    top: 10px;
+    color: white;
+}
+
+#gameover {
+    top: 45%;
+    left: 37%;
+    color: red;
+}
+
+#win {
+    top: 45%;
+    left: 45%;
+    color: green;
+}
+
+#prev {
+    position: absolute;
+}
+
+#next {
+    position: absolute;
+    left: 50px;
+}
+
+#fullscreen {
+    position: absolute;
+    right: 0px;
+}
