@@ -6,4 +6,5 @@ description: A 3D game engine utilizing WebGL
 dependencies:
   box2d: any
   browser: any
+  dock_spawn: any
   vector_math: any
