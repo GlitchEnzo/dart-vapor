@@ -8,3 +8,17 @@
 - In-game console
 - WebGL text
 - Shared meshes
+
+
+Windows
+-------
+Main
+    Menu
+    Play/Pause
+Scene
+Game
+GameObjects
+Assets
+
+Properties/Details (Inspector)
+Console
