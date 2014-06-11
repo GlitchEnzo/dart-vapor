@@ -15,11 +15,11 @@ void main()
     
     GameObject triangle = GameObject.CreateTriangle();
     triangle.renderer.material = material;
-    triangle.transform.position = new Vector3(-1.5, 0.0, -7.0);
+    triangle.transform.position = new Vector3(-1.5, 0.0, 7.0);
     scene.AddGameObject(triangle);
     
     GameObject square = GameObject.CreateQuad();
     square.renderer.material = material;
-    square.transform.position = new Vector3(1.5, 0.0, -7.0);
+    square.transform.position = new Vector3(1.5, 0.0, 7.0);
     scene.AddGameObject(square);
 }
